@@ -1,0 +1,67 @@
+{
+  "name": "compress-edge",
+  "description": "Wrapper ligero sobre la Compression Streams API para comprimir y descomprimir datos con gzip, deflate y deflate-raw.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baa4ts/compress-edge.git"
+  },
+  "homepage": "https://github.com/baa4ts/compress-edge#readme",
+  "bugs": {
+    "url": "https://github.com/baa4ts/compress-edge/issues"
+  },
+  "version": "1.0.0",
+  "type": "module",
+  "license": "BSD-3-Clause",
+  "author": {
+    "url": "https://github.com/baa4ts",
+    "name": "baa4ts"
+  },
+  "keywords": [
+    "compression",
+    "compress",
+    "decompress",
+    "gzip",
+    "deflate",
+    "compression-streams-api",
+    "web-api",
+    "typescript",
+    "wrapper",
+    "browser",
+    "streams"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "rslib",
+    "dev": "rslib --watch",
+    "format": "prettier --write ./src",
+    "format:tests": "prettier --write ./tests",
+    "lint": "rslint ./src",
+    "lint:tests": "rslint ./tests",
+    "test": "rstest",
+    "test:watch": "rstest --watch"
+  },
+  "devDependencies": {
+    "@rslib/core": "^0.23.2",
+    "@rslint/core": "^0.5.3",
+    "@rstest/adapter-rslib": "^0.10.6",
+    "@rstest/core": "^0.10.6",
+    "@types/node": "^24.13.2",
+    "prettier": "^3.8.3",
+    "typescript": "^6.0.3"
+  },
+  "private": false
+}
