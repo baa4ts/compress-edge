@@ -3,9 +3,14 @@
 Wrapper ligero sobre la [Compression Streams API](https://developer.mozilla.org/en-US/docs/Web/API/Compression_Streams_API) para comprimir y descomprimir datos con gzip, deflate y deflate-raw.
 
 [![Socket Badge](https://badge.socket.dev/npm/package/compress-edge/1.0.0)](https://badge.socket.dev/npm/package/compress-edge/1.0.0)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/baa4ts/compress-edge)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Rslib](https://img.shields.io/badge/Rslib-07C160?style=flat&logo=rsbuild&logoColor=white)](https://rslib.rs/)
 [![Rstest](https://img.shields.io/badge/Rstest-00A8FF?style=flat&logo=rspack&logoColor=white)](https://rstest.rs/)
+
+- [Documentacion - DeepWiki](https://deepwiki.com/baa4ts/compress-edge)
+- [Primeros Pasos - DeepWiki](https://deepwiki.com/baa4ts/compress-edge/1.1-getting-started)
+
 
 ## Referencias
 
